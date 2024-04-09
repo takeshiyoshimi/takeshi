@@ -1,0 +1,139 @@
+body {
+  width: 100%;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  img {
+    width: 30%;
+  }
+  
+  ul {
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    li {
+      list-style-type: none;
+      margin-right: 10px;
+    }
+    
+    .language {
+      .btn {
+        font-size: 12px;
+      }
+    }
+    
+    .check {
+      width: 30px;
+      height: 30px;
+      .btn {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        
+        ion-icon {
+          width: 100%;
+          height: 100%;
+        }
+        
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.content{
+  .MenuList{
+    margin: 0;
+    padding: 0 10px;
+    .btn{
+      width: 100%;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    p{
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  }
+}
+
+.products{
+  box-sizing: border-box;
+  overflow-y: auto;
+  button{
+    height: 0;
+  }
+  .product-box{
+    padding:10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border: 1px solid rgb(42, 98, 255);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    h5{
+      margin: 0;
+      font-size: 18px;
+      text-align: center;
+    }
+    span{
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      width: 55px;
+    }
+    select{
+      width: 50px;
+      margin-top: 5px;
+    }
+    .item{
+      .img-btn{
+        border: none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .group{
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    }
+    
+  }
+}
+
+
+.order-box{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-body{
+  padding: 10px;
+  img{
+    width: 100%;
+  }
+  .modal-direction{
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
+
